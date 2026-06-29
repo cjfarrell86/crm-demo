@@ -1,5 +1,6 @@
-import { useState } from "react";
+"use client";
 
+import { useState } from "react";
 const SAMPLE_CLIENTS = [
   { id: 1, name: "Hartwell Bakery", contact: "Susan Hartwell", email: "susan@hartwellbakery.com", phone: "(512) 334-7821", status: "active", value: 4200, lastContact: "2026-06-22", tags: ["recurring", "priority"] },
   { id: 2, name: "Riverbend Landscaping", contact: "Marco Delgado", email: "marco@riverbend.com", phone: "(737) 891-2240", status: "lead", value: 1800, lastContact: "2026-06-25", tags: ["new"] },
